@@ -1,0 +1,2 @@
+# for-smm
+For Xujmbeiyev
