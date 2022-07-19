@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header>
+    <div id="logo" onclick="slowScroll('#top')">
+        <span>SMM и не только</span>
+    </div>
+    <div id="about">
+        <a href="#" title="Возможности" onclick="slowScroll('#main')">Возможности</a>
+        <a href="#" title="Преимущества" onclick="slowScroll('#overview')">Преимущества</a>
+        <a href="#" title="Контакты" onclick="slowScroll('#contacts')">Контакты</a>
+        <a href="#" title="FAQ" onclick="slowScroll('#faq')">FAQ</a>
+    </div>
+</header>
+
+<body>
+    <div class="icon-bar">
+        <a href="https://www.facebook.com/SMM-%D0%A2%D0%B0%D1%80%D0%B3%D0%B5%D1%82-WEB-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%B0%D0%B9%D1%82%D0%BE%D0%B2-%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-103368791778682"
+            target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="#" target="_blank" class="telegram"><i class="fa fa-telegram"></i></a>
+    </div>
+
+    <div id="top">
+        <h1></h1>
+        <h3></h3>
+    </div>
+
+
+
+    <div id="main">
+        <div class="intro hover">
+            <h2>Наши услуги помогут вам!</h2>
+            <span>Большой выбор всего</span>
+        </div>
+        <dic class="text">
+            <span>МЫ - молодая амбициозная команда, готовая помочь Вам с развитием вашего бизнеса на просторах
+                интернета! Нацеленность на крупные достижения, стремление добиваться весомых результатов, желание
+                масштабных успехов у нас в ДНК!</span>
+        </dic>
+    </div>
+
+    <div id="overview">
+        <h2 class="advantage">Преимущества</h2>
+        <h4 class="advantage">С нами все проще!</h4>
+
+        <div class="img">
+            <img src="images/web.jpg" alt="web">
+            <span>Создание web-сайтов</span>
+        </div>
+        <div class="img">
+            <img src="images/smm.jpg" alt="smm">
+            <span>SMM продвижение</span>
+        </div>
+        <div class="img">
+            <img src="images/design.jpg" alt="design">
+            <span>Создание фирменного стиля, банеров и тд.</span>
+        </div>
+        <div class="img">
+            <img src="images/other.jpg" alt="design">
+            <span>"Любой каприз за Ваши деньги"</span>
+        </div>
+    </div>
+
+    <div id="contacts">
+        <center>
+            <h5>Связаться с нами</h5>
+        </center>
+        <form id="form_input">
+            <label for="name">Имя <span>*</span></label><br>
+            <input type="text" placeholder="Введите Ваше имя" name="name" id="name"><br>
+            <label for="email">Ваша почта <span>*</span></label><br>
+            <input type="email" placeholder="Введите Ваш email" name="email" id="email"><br>
+            <label for="message">Сообщение <span>*</span></label><br>
+            <textarea placeholder="Введите сообщение" name="message" id="message"></textarea><br>
+            <div id="mess_send" class="btn">Отправить</div>
+        </form>
+    </div>
+    <!--
+    <div id="faq">
+        <div>
+            <span class="tittle">Оплата</span><br>
+            <span class="heading">Как будет проходит оплата?</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis
+                perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa
+                nostrum, quidem, quasi ratione itaque nam.</p>
+
+        </div>
+        <div>
+            <span class="tittle">Информация</span><br>
+            <span class="heading">Что входит в услуги сервиса</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis
+                perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa
+                nostrum, quidem, quasi ratione itaque nam.</p>
+
+        </div>
+        <div>
+            <span class="tittle">Гарантии</span><br>
+            <span class="heading">Какие гарантии есть</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis
+                perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa
+                nostrum, quidem, quasi ratione itaque nam.</p>
+
+        </div>
+    </div>
+-->
+    <div id="faq">
+        <div>
+            <span class="tittle">Оплата</span><br>
+            <span class="heading">Как будет проходить оплата?</span>
+            <p>Оплата и все что касается этого процесса индивидуально обсуждается с каждым клиентом, чтобы выбрать
+                максимально оптимальный вариант.</p>
+        </div>
+        <div>
+            <span class="tittle">Информация</span><br>
+            <span class="heading">Интересны наши услуги?</span>
+            <p>Заполните форму обратной связи или напишите в любую из наших соц.сети и очень скоро мы Вам позвоним! Для
+                уточнения информации Вы также можете связаться с нами по контактам.</p>
+        </div>
+        <div>
+            <span class="tittle">Другие вопросы</span><br>
+            <span class="heading">У Вас остались другие вопросы?</span>
+            <p>Смело звоните нам или оставляйте заявку на нашем сайте и получите ответы на интересующие Вас вопросы!</p>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function slowScroll(id) {
+            $('html, body').animate({
+                scrollTop: $(id).offset().top
+            }, 500);
+        }
+
+        $(document).on("scroll", function () {
+            if ($(window).scrollTop() === 0)
+                $("header").removeClass("fixed");
+            else
+                $("header").attr("class", "fixed");
+        });
+    </script>
+
+</body>
+
+</html>
